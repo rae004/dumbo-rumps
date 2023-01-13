@@ -10,5 +10,21 @@
 .items {
     padding: 1rem;
     margin: .2rem;
-    font-size:2vw;
+}
+
+@media (min-width:768px) {
+    .items {
+        font-size: 4rem;
+    }
+}
+    
+@media (min-width:1024px) {
+    .items {
+        font-size: 3rem;
+    }
+}
+@media (min-width:1280px) {
+    .items {
+        font-size: 2rem;
+    }
 }
