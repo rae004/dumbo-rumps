@@ -1,24 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ScrollAnimation from 'react-animate-on-scroll';
+import 'animate.css/animate.min.css';
 
 function App() {
     return (
         <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
+            <header className={'scroll-container'}>
+                <ScrollAnimation
+                    initiallyVisible={true}
+                    animatePreScroll={true}
+                    className={'animated-text'}
+                    animateIn={'animate__wobble'}
                 >
-                    Learn React Bob!!!!!!!!!!!!
-                </a>
+                    In the Kruger National Park...
+                </ScrollAnimation>
+                <ScrollAnimation>{/*<img src={}>*/}</ScrollAnimation>
             </header>
+
+            <div className={'scroll-container'}>
+                <ScrollAnimation
+                    className={'animated-text'}
+                    animateIn="animate__bounceIn"
+                >
+                    Some Text
+                </ScrollAnimation>
+            </div>
         </div>
     );
 }
