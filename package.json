@@ -1,0 +1,10 @@
+{
+  "name": "kruger-rumps",
+  "version": "0.0.1",
+  "description": "A site inspired by the Kruger National park in South Africa.",
+  "main": "index.ts",
+  "repository": "git@github.com:rae004/dumbo-rumps.git",
+  "author": "Robert Engel <robert.engel@apollidon.com>",
+  "license": "MIT",
+  "private": false
+}
