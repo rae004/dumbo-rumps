@@ -32,6 +32,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint \"src/**/*.ts*\" --max-warnings=0",
+    "format": "eslint \"src/**/*.ts*\" --fix",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
