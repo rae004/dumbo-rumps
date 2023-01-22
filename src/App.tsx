@@ -9,9 +9,9 @@ function App() {
         <div className="App">
             <header className={'scroll-container'}>
                 <div className={'hero-row'}>
-                    <FiArrowDown className={'hero-down-arrows'} />
+                    <FiArrowDown className={'hero-down-arrows swing-image'} />
                     <span>SCROLL DOWN</span>
-                    <FiArrowDown className={'hero-down-arrows'} />
+                    <FiArrowDown className={'hero-down-arrows swing-image'} />
                 </div>
             </header>
             <div className={'scroll-container'}>
