@@ -1,7 +1,7 @@
 import React from 'react';
 import './slideThree.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import rump1 from '../../images/giraffe-rump-240-320.jpg';
+import rump1 from '../../images/giraffe-rump-240-320.webp';
 
 const SlideThree = () => {
     return (
