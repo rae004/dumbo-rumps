@@ -1,0 +1,12 @@
+.slideThreeText {
+    color: white;
+    font-size: calc(15px + 2vmin);
+    margin: 2rem 0;
+}
+
+.slideThreeImgTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

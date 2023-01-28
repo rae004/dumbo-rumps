@@ -3,7 +3,7 @@ import './App.css';
 import 'animate.css/animate.min.css';
 import SlideOne from './components/slideOne/SlideOne';
 import SlideTwo from './components/slideTwo/SlideTwo';
-import SlideThree from './components/SlideThree';
+import SlideThree from './components/slideThree/SlideThree';
 import SlideFour from './components/SlideFour';
 import SlideFive from './components/SlideFive';
 
