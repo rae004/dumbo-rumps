@@ -5,7 +5,7 @@ import SlideOne from './components/slideOne/SlideOne';
 import SlideTwo from './components/slideTwo/SlideTwo';
 import SlideThree from './components/slideThree/SlideThree';
 import SlideFour from './components/slideFour/SlideFour';
-import SlideFive from './components/SlideFive';
+import SlideFive from './components/slideFive/SlideFive';
 
 function App() {
     return (

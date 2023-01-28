@@ -10,7 +10,7 @@ const SlideThree = () => {
                 animateOnce={true}
                 animateIn={'animate__backInLeft'}
             >
-                <div className={'slideTwoText'}>Some rumps...</div>
+                <div className={'slideThreeText'}>Some rumps...</div>
             </ScrollAnimation>
 
             <ScrollAnimation
@@ -20,7 +20,7 @@ const SlideThree = () => {
                 className={'slideThreeImgTextContainer'}
             >
                 <img src={rump1} alt={'second rump image'} />
-                <div className={'slideTwoText'}>Are spotted!</div>
+                <div className={'slideThreeText'}>Are spotted!</div>
             </ScrollAnimation>
         </div>
     );

@@ -1,29 +1,31 @@
 import React from 'react';
-import './slideFour.css';
+import './slideFive.css';
 import ScrollAnimation from 'react-animate-on-scroll';
-import rump1 from '../../images/zebra-rump-240-320.webp';
+import rump1 from '../../images/reach-rump-240-320.webp';
 
-const SlideFour = () => {
+const SlideFive = () => {
     return (
         <div className={'scroll-container'}>
             <ScrollAnimation
                 animateOnce={true}
                 animateIn={'animate__backInDown'}
             >
-                <div className={'slideFourText'}>Some are even...</div>
+                <div className={'slideFiveText'}>You may even think...</div>
             </ScrollAnimation>
 
             <ScrollAnimation
                 delay={600}
                 animateOnce={true}
-                animateIn={'animate__backInUp'}
-                className={'slideFourImgFourContainer'}
+                animateIn={'animate__flipInY'}
+                className={'slideFiveImgContainer'}
             >
                 <img src={rump1} alt={'second rump image'} />
-                <div className={'slideFourText'}>STRIPED RUMPS!!!</div>
+                <div className={'slideFiveText'}>
+                    You can reach out and touch the RUMPS!
+                </div>
             </ScrollAnimation>
         </div>
     );
 };
 
-export default SlideFour;
+export default SlideFive;
