@@ -4,7 +4,7 @@ import 'animate.css/animate.min.css';
 import SlideOne from './components/slideOne/SlideOne';
 import SlideTwo from './components/slideTwo/SlideTwo';
 import SlideThree from './components/slideThree/SlideThree';
-import SlideFour from './components/SlideFour';
+import SlideFour from './components/slideFour/SlideFour';
 import SlideFive from './components/SlideFive';
 
 function App() {
