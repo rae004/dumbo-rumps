@@ -1,19 +1,10 @@
-.App {
-  text-align: center;
-}
-
-.hero-row {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  justify-content: space-around;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.hero-down-arrows {
-  font-size: calc(15rem + 2vmin);
-  color: white;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .scroll-container {
@@ -21,36 +12,10 @@
   background-color: #282c34;
   width: 100vw;
   padding: 3.125rem;
-  height: 60vh;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.animated-text {
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-@-webkit-keyframes swinging{
-  0%{-webkit-transform: rotate(10deg);}
-  50%{-webkit-transform: rotate(-5deg)}
-  100%{-webkit-transform: rotate(10deg);}
-}
-
-@keyframes swinging{
-  0%{transform: rotate(10deg);}
-  50%{transform: rotate(-5deg)}
-  100%{transform: rotate(10deg);}
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .swing-image{
-    -webkit-transform-origin: 50% 0;
-    transform-origin: 50% 0;
-    -webkit-animation: swinging 2s ease-in-out forwards infinite;
-    animation: swinging 2s ease-in-out forwards infinite;
-  }
 }
 
