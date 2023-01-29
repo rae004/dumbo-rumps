@@ -1,0 +1,12 @@
+.slideTwoText {
+    color: white;
+    font-size: calc(15px + 2vmin);
+    margin: 2rem 0;
+}
+
+.slideTwoImgTextContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

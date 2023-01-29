@@ -1,0 +1,65 @@
+{
+  "name": "kruger-rumps",
+  "version": "0.0.1",
+  "description": "A site inspired by the Kruger National park in South Africa.",
+  "main": "index.ts",
+  "repository": "git@github.com:rae004/dumbo-rumps.git",
+  "author": "Robert Engel <robert.engel@apollidon.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "react": "^18.2.0",
+    "react-animate-on-scroll": "^2.1.5",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-animate-on-scroll": "^2.1.5",
+    "@types/react-dom": "^18.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "eslint": "^8.32.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-testing-library": "^5.9.1",
+    "husky": "^8.0.3",
+    "prettier": "^2.8.3",
+    "typescript": "^4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "lint": "eslint \"src/**/*.ts*\" --max-warnings=0",
+    "format": "eslint \"src/**/*.ts*\" --fix",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "postinstall": "husky install"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
