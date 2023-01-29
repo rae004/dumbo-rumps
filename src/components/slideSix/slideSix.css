@@ -1,0 +1,13 @@
+.slideSixText {
+    color: white;
+    font-size: calc(15px + 2vmin);
+    margin: 1rem 0;
+}
+
+.slideSixImgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}

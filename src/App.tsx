@@ -6,6 +6,7 @@ import SlideTwo from './components/slideTwo/SlideTwo';
 import SlideThree from './components/slideThree/SlideThree';
 import SlideFour from './components/slideFour/SlideFour';
 import SlideFive from './components/slideFive/SlideFive';
+import SlideSix from './components/slideSix/SlideSix';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <SlideThree />
             <SlideFour />
             <SlideFive />
+            <SlideSix />
         </>
     );
 }
