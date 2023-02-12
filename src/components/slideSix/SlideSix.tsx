@@ -35,9 +35,8 @@ const SlideSix = () => {
                             'https://www.sanparks.org/fundraising/payment.php?p_frid=57159'
                         }
                     >
-                        click here
-                    </a>{' '}
-                    and give anything you can.
+                        follow this link and give anything you can.
+                    </a>
                 </div>
             </ScrollAnimation>
         </div>
