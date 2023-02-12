@@ -3,7 +3,7 @@
     flex-direction: row;
     width: 100vw;
     justify-content: space-around;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(0.625rem + 2vmin);
     color: white;
 }
 

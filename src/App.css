@@ -11,7 +11,6 @@ body {
 
 .scroll-container {
   width: 100vw;
-  padding: 3.125rem;
   height: 65vh;
   display: flex;
   flex-direction: column;

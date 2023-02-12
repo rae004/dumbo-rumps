@@ -1,7 +1,8 @@
 .slideFiveText {
     color: white;
-    font-size: calc(15px + 2vmin);
+    font-size: calc(0.938rem + 2vmin);
     margin: 2rem 0;
+    text-align: center;
 }
 
 .slideFiveImgContainer {
