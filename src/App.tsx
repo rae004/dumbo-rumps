@@ -14,12 +14,14 @@ function App() {
     return (
         <BrowserRouter>
             <ScrollToTop />
-            <SlideOne />
-            <SlideTwo />
-            <SlideThree />
-            <SlideFour />
-            <SlideFive />
-            <SlideSix />
+            <div className={'container'}>
+                <SlideOne />
+                <SlideTwo />
+                <SlideThree />
+                <SlideFour />
+                <SlideFive />
+                <SlideSix />
+            </div>
         </BrowserRouter>
     );
 }
